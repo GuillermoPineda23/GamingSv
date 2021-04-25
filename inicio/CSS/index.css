@@ -121,11 +121,18 @@ section input:hover{
 	border:25px;
 	border-radius: 10px;
 
-  transform: translateX(200px) translateY(0px);
+  -webkit-transform: translateX(200px) translateY(0px);
+  -moz-transform: translateX(200px) translateY(0px);
+  -o-transform: translateX(200px) translateY(0px);
+  -ms-transform: translateX(200px) translateY(0px);
 }
 
 .aside{
-  transition: transform 500ms ease-in-out 100ms;
+  -webkit-transition: transform 500ms ease-in-out 100ms;
+  -moz-transition: transform 500ms ease-in-out 100ms;
+   -o-transition: transform 500ms ease-in-out 100ms;
+  -ms-transition: transform 500ms ease-in-out 100ms;
+
 }
 
 	
