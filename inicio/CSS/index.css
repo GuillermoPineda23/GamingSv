@@ -120,6 +120,14 @@ section input:hover{
 	padding: 40px;
 	border:25px;
 	border-radius: 10px;
+
+  transform: translateX(200px) translateY(0px);
+}
+
+.aside{
+  transition: transform 500ms ease-in-out 100ms;
+}
+
 	
 
 }
